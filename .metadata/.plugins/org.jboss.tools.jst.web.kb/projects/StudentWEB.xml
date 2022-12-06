@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="StudentMNGMNT"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/servlet/jstl/api/main/jakarta.servlet.jsp.jstl-api-3.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/ws/rs/api/main/jakarta.ws.rs-api-3.1.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxb-provider/main/resteasy-jaxb-provider-6.2.1.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/servlet/jstl/api/main/jakarta.servlet.jsp.jstl-3.0.0.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="StudentMNGMNT"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="StudentMNGMNT"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/enterprise/api/main/jakarta.enterprise.cdi-api-4.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/jboss/logging/main/jboss-logging-3.4.3.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/json/api/main/jakarta.json-api-2.1.1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/el/api/main/jboss-el-api_5.0_spec-4.0.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/resource/api/main/jakarta.resource-api-2.1.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/hibernate/validator/main/hibernate-validator-8.0.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/batch/api/main/jakarta.batch-api-2.1.1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/wildfly/common/main/wildfly-common-1.6.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/xml/ws/api/main/jboss-jakarta-xml-ws-api_4.0_spec-1.0.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/servlet/api/main/jakarta.servlet-api-6.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/mail/api/main/jakarta.mail-api-2.1.1.jbossorg-1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/enterprise/concurrent/api/main/jakarta.enterprise.concurrent-api-3.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/inject/api/main/jakarta.inject-api-2.0.1.jar"/>
+  <path value="E:/LSI2/S3/Architecture web distribuée/2-El Aachak/Atelier 3/StudentWEB/src/main/webapp/WEB-INF/lib/servlet-api.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/persistence/api/main/jakarta.persistence-api-3.1.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-6.2.1.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/websocket/api/main/jakarta.websocket-client-api-2.1.0-jbossorg-2.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/xml/soap/api/main/jboss-saaj-api_3.0_spec-1.0.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/jboss/dmr/main/jboss-dmr-1.6.1.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/servlet/jsp/api/main/jakarta.servlet.jsp-api-3.1.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/javax/wsdl4j/api/main/wsdl4j-1.6.3.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/activation/api/main/jakarta.activation-api-2.1.1.jbossorg-1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/security/auth/message/api/main/jakarta.authentication-api-3.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/enterprise/api/main/jakarta.enterprise.lang-model-4.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/interceptor/api/main/jakarta.interceptor-api-2.1.0.jar"/>
+  <path value="E:/LSI2/S3/Architecture web distribuée/2-El Aachak/Atelier 3/StudentWEB/src/main/webapp/WEB-INF/lib/jsf-impl-2.2.9.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/meta-inf/html_basic.tld" project="StudentWEB"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/meta-inf/jsf_core.tld" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/meta-inf/mojarra_ext.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/meta-inf/mojarra_ext.tld" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="StudentWEB"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="StudentWEB"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/ejb/api/main/jakarta.ejb-api-4.0.1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/security/jacc/api/main/jakarta.authorization-api-2.1.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/validation/api/main/jakarta.validation-api-3.0.2.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/annotation/api/main/jakarta.annotation-api-2.1.1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/transaction/api/main/jakarta.transaction-api-2.0.1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/jboss/as/controller-client/main/wildfly-controller-client-19.0.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/org/jboss/ejb3/main/jboss-ejb3-ext-api-2.3.0.Final.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/jms/api/main/jakarta.jms-api-3.1.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/faces/api/main/jakarta.faces-api-4.0.1.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/xml/bind/api/main/jakarta.xml.bind-api-4.0.0.jar"/>
+  <path value="E:/wildfly-27.0.0.Final/wildfly-27.0.0.Final/modules/system/layers/base/jakarta/websocket/api/main/jakarta.websocket-api-2.1.0-jbossorg-2.jar"/>
+ </paths>
+ <validation>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

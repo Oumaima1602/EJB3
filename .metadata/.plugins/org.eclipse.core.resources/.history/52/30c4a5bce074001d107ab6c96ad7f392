@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="formStudent">
+	<form action="controleur.do" method="post">
+		<table>
+			<tr>
+				<td>Prénom</td>
+				<td><input type="text" name="prenom" /></td>
+			</tr>
+			<tr>
+				<td>Nom</td>
+				<td><input type="text" name="nom" /></td>
+			</tr>
+			<tr>
+				<td>CNE</td>
+				<td><input type="text" name="cne" /></td>
+			</tr>
+			<tr>
+				<td>Adresse</td>
+				<td><input type="text" name="adresse" /></td>
+			</tr>
+			<tr>
+				<td>Niveau</td>
+				<td><input type="text" name="niveau" /></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

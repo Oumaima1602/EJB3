@@ -1,0 +1,45 @@
+package metier.sessions;
+
+import java.util.List;
+
+import jakarta.ejb.Stateless;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import metier.entities.Student;
+
+@Stateless(name = "ST")
+public class StudentEJBImpl implements IStudentLocal,IStudentRemote{
+	
+	@PersistenceContext
+	private EntiyManager em;
+	@Override
+	public void addStudent(Student s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Student getStudent(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Student> getAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateStudent(Student s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deletStudent(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

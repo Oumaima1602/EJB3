@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\LSI2\S3\Architecture web distribuée\2-El Aachak\Atelier 3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3393787562.index
+4232707702.index
+2605671768.index
+2319590407.index
+1822179686.index
+2945844262.index
+2980086343.index

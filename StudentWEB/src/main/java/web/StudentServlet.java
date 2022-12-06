@@ -1,0 +1,49 @@
+package web;
+
+import java.io.IOException;
+
+import jakarta.ejb.EJB;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import metier.entities.Student;
+import metier.sessions.IStudentLocal;
+
+@WebServlet
+public class StudentServlet extends HttpServlet{
+	
+	@EJB
+	private IStudentLocal metier;
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String action = req.getParameter("action");
+		if(action!=null) {
+			
+		}
+		if(action.equals("del")) {
+			Long id = Long.parseLong(req.getParameter("studentId"));
+			metier.deletStudent(id);
+		}
+		req.setAttribute("students", metier.getAllStudents() );
+		req.getRequestDispatcher("Student.jsp").forward(req, resp);
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String action = req.getParameter("action");
+		if(action.equals("Add")) {
+			String prenom = req.getParameter("prenom");
+			String nom = req.getParameter("nom");
+			String cne = req.getParameter("cne");
+			String adresse = req.getParameter("adresse");
+			String niveau = req.getParameter("niveau");
+			metier.addStudent(new Student(prenom,nom,cne,adresse,niveau));
+		}
+		req.setAttribute("students", metier.getAllStudents() );
+		req.getRequestDispatcher("Student.jsp").forward(req, resp);
+	}
+
+}

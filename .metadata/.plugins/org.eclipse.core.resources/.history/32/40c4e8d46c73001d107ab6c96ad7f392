@@ -1,0 +1,47 @@
+package metier.sessions;
+
+import java.util.List;
+
+
+import jakarta.ejb.Stateless;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.Query;
+import jakarta.persistence.EntityManager;
+import metier.entities.Student;
+
+@Stateless(name = "ST")
+public class StudentEJBImpl implements IStudentLocal,IStudentRemote{
+	
+	@PersistenceContext(unitName = "Students_PU")
+	private EntityManager em;
+	
+	@Override
+	public void addStudent(Student s) {
+		em.persist(s);	
+	}
+
+	@Override
+	public Student getStudent(Long id) {
+		Student s = em.find(Student.class, id);
+		if(s == null) throw new RuntimeException("Unfound Student");
+		return s;
+	}
+
+	@Override
+	public List<Student> getAllStudents() {
+		Query qry = em.createQuery("select s from Student");
+		return qry.getResultList();
+	}
+
+	@Override
+	public void updateStudent(Student s) {
+		em.merge(s);
+	}
+
+	@Override
+	public void deletStudent(Long id) {
+		Student s = getStudent(id);	
+		em.remove(s);
+	}
+
+}

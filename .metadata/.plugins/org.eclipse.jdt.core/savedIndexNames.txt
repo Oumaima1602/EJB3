@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+E:\LSI2\S3\Architecture web distribuée\2-El Aachak\Atelier 3\.metadata\.plugins\org.eclipse.jdt.core
+4166771216.index
+4227492937.index
+1865797976.index
+2974820256.index

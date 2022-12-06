@@ -1,0 +1,6 @@
+path=E:\wildfly-27.0.0.Final\wildfly-27.0.0.Final\modules\system\layers\base\jakarta\annotation\api\main\jakarta.annotation-api-2.1.1.jar
+size=26141
+archive=0
+path=E:\wildfly-27.0.0.Final\wildfly-27.0.0.Final\modules\system\layers\base\jakarta\activation\api\main\jakarta.activation-api-2.1.1.jbossorg-1.jar
+size=65606
+archive=0
